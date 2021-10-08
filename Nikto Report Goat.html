@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://192.168.0.109:8000/NEW_RESCAN/nikto_report_webgoat.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt;
+   font-weight: normal;
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+   width: 95%;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt;
+   font-weight: normal;
+   color: white;
+   background: #000066;
+   border: thin solid black;
+   width: 300px;
+  }
+  .column-head
+  {
+   width: 15em;
+   font-weight:bold;
+   vertical-align: top;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1032.0" data-gr-ext-installed="">
+<div>
+<a name="1"></a>
+<table class="headerTable">
+ <tbody><tr>
+   <td>3.66.163.55 / 3.66.163.55 port 8080</td>
+ </tr>
+</tbody></table>
+<table class="dataTable">
+ <tbody><tr>
+   <td class="column-head">Target IP</td>
+   <td>3.66.163.55</td>
+ </tr>
+ <tr>
+   <td class="column-head">Target hostname</td>
+   <td>3.66.163.55</td>
+ </tr>
+  <tr>
+   <td class="column-head">Target Port</td>
+   <td>8080</td>
+ </tr>
+  <tr>
+   <td class="column-head">HTTP Server</td>
+   <td></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (Name)</td>
+   <td><a href="http://3.66.163.55:8080/WebGoat/">http://3.66.163.55:8080/WebGoat/</a></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (IP)</td>
+   <td><a href="http://3.66.163.55:8080/WebGoat/">http://3.66.163.55:8080/WebGoat/</a></td>
+ </tr>
+ </tbody></table>
+</div>
+<p></p>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/WebGoat/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie JSESSIONID created without the httponly flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://3.66.163.55:8080/WebGoat/">http://3.66.163.55:8080/WebGoat/</a><br>
+      <a href="http://3.66.163.55:8080/WebGoat/">http://3.66.163.55:8080/WebGoat/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/WebGoat/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The web server may reveal its internal or real IP in the Location header via a request to / over HTTP/1.0. The value is "172.17.0.2".</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://3.66.163.55:8080/WebGoat/">http://3.66.163.55:8080/WebGoat/</a><br>
+      <a href="http://3.66.163.55:8080/WebGoat/">http://3.66.163.55:8080/WebGoat/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:630">OSVDB-630</a></td>
+</tr></tbody></table>
+
+<div>
+<p></p>
+<table class="headerTable">
+ <tbody><tr>
+  <td>Host Summary</td>
+ </tr>
+</tbody></table>
+<table class="dataTable">
+ <tbody><tr>
+  <td class="column-head">Start Time</td>
+  <td>2021-09-30 06:15:26</td>
+ </tr>
+ <tr>
+  <td class="column-head">End Time</td>
+  <td>2021-09-30 06:25:45</td>
+ </tr>
+ <tr>
+  <td class="column-head">Elapsed Time</td>
+  <td>619 seconds</td>
+ </tr>
+ <tr>
+  <td class="column-head">Statistics</td>
+  <td>8125 requests, 0 errors, 2 findings</td>
+ </tr>
+</tbody></table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable">
+  <tbody><tr>
+    <td>Scan Summary</td>
+  </tr>
+</tbody></table>
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">Software Details</td>
+    <td><a href="http://cirt.net/">Nikto 2.1.6</a></td>
+  </tr><tr>
+    <td class="column-head">CLI Options</td>
+    <td>-url https://3.66.163.55:8080/WebGoat/ -Plugins @@ALL -id test2021:**** -Format html -output tmp/nikto_report_webgoat.html</td>
+  </tr>
+  <tr>
+    <td class="column-head">Hosts Tested</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="column-head">Start Time</td>
+    <td>Thu Sep 30 06:15:26 2021</td>
+  </tr>
+  <tr>
+    <td class="column-head">End Time</td>
+    <td>Thu Sep 30 06:25:45 2021</td>
+  </tr>
+  <tr>
+    <td class="column-head">Elapsed Time</td>
+    <td>619 seconds</td>
+  </tr>
+</tbody></table>
+<p></p>
+<p class="copyright">© 2008 Chris Sullo</p>
+
+<!-- (c) 2008 Chris Sullo -->
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

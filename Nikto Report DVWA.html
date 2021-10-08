@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://192.168.0.109:8000/reports/nikto_report_d.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt;
+   font-weight: normal;
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+   width: 95%;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt;
+   font-weight: normal;
+   color: white;
+   background: #000066;
+   border: thin solid black;
+   width: 300px;
+  }
+  .column-head
+  {
+   width: 15em;
+   font-weight:bold;
+   vertical-align: top;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<div>
+<a name="1"></a>
+<table class="headerTable">
+ <tbody><tr>
+   <td>172.17.0.3 / 172.17.0.3 port 80</td>
+ </tr>
+</tbody></table>
+<table class="dataTable">
+ <tbody><tr>
+   <td class="column-head">Target IP</td>
+   <td>172.17.0.3</td>
+ </tr>
+ <tr>
+   <td class="column-head">Target hostname</td>
+   <td>172.17.0.3</td>
+ </tr>
+  <tr>
+   <td class="column-head">Target Port</td>
+   <td>80</td>
+ </tr>
+  <tr>
+   <td class="column-head">HTTP Server</td>
+   <td>Apache/2.4.10 (Debian)</td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (Name)</td>
+   <td><a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (IP)</td>
+   <td><a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a></td>
+ </tr>
+ </tbody></table>
+</div>
+<p></p>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The anti-clickjacking X-Frame-Options header is not present.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3268">OSVDB-3268</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>HEAD</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Apache/2.4.10 appears to be outdated (current is at least Apache/2.4.46). Apache 2.2.34 is the EOL for the 2.x branch.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>OPTIONS</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Allowed HTTP Methods: OPTIONS, GET, HEAD, POST </td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/./</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/./: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/./</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/./</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3268">OSVDB-3268</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/./</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/./: Appending '/./' to a directory allows indexing</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/./</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/./</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities//</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities//: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities//">http://172.17.0.3:80/vulnerabilities//</a><br>
+      <a href="http://172.17.0.3/vulnerabilities//">http://172.17.0.3:80/vulnerabilities//</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3268">OSVDB-3268</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities//</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities//: Apache on Red Hat Linux release 9 reveals the root directory listing by default if there is no index page.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities//">http://172.17.0.3:80/vulnerabilities//</a><br>
+      <a href="http://172.17.0.3/vulnerabilities//">http://172.17.0.3:80/vulnerabilities//</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/%2e/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/%2e/: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/%2e/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/%2e/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3268">OSVDB-3268</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/%2e/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/%2e/: Weblogic allows source code or directory listing, upgrade to v6.0 SP1 or higher. BID-2513.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/%2e/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/">http://172.17.0.3:80/vulnerabilities/%2e/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:576">OSVDB-576</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities///</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities///: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities///">http://172.17.0.3:80/vulnerabilities///</a><br>
+      <a href="http://172.17.0.3/vulnerabilities///">http://172.17.0.3:80/vulnerabilities///</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3268">OSVDB-3268</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/?PageServices</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/?PageServices: The remote server may allow directory listings through Web Publisher by forcing the server to show all files via 'open directory browsing'. Web Publisher should be disabled. CVE-1999-0269.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/?PageServices">http://172.17.0.3:80/vulnerabilities/?PageServices</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/?PageServices">http://172.17.0.3:80/vulnerabilities/?PageServices</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:119">OSVDB-119</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/?wp-cs-dump</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities/?wp-cs-dump: The remote server may allow directory listings through Web Publisher by forcing the server to show all files via 'open directory browsing'. Web Publisher should be disabled. CVE-1999-0269.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/?wp-cs-dump">http://172.17.0.3:80/vulnerabilities/?wp-cs-dump</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/?wp-cs-dump">http://172.17.0.3:80/vulnerabilities/?wp-cs-dump</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:119">OSVDB-119</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////: Directory indexing found.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////">http://172.17.0.3:80/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</a><br>
+      <a href="http://172.17.0.3/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////">http://172.17.0.3:80/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3268">OSVDB-3268</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////: Abyss 1.03 reveals directory listing when 	 /'s are requested.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////">http://172.17.0.3:80/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</a><br>
+      <a href="http://172.17.0.3/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////">http://172.17.0.3:80/vulnerabilities///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td><a href="https://vulners.com/osvdb/OSVDB:3288">OSVDB-3288</a></td>
+</tr></tbody></table>
+
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">URI</td>
+    <td>/vulnerabilities/fi/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie PHPSESSID created without the httponly flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://172.17.0.3/vulnerabilities/fi/">http://172.17.0.3:80/vulnerabilities/fi/</a><br>
+      <a href="http://172.17.0.3/vulnerabilities/fi/">http://172.17.0.3:80/vulnerabilities/fi/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">References</td>
+    <td></td>
+</tr></tbody></table>
+
+<div>
+<p></p>
+<table class="headerTable">
+ <tbody><tr>
+  <td>Host Summary</td>
+ </tr>
+</tbody></table>
+<table class="dataTable">
+ <tbody><tr>
+  <td class="column-head">Start Time</td>
+  <td>2021-10-01 13:45:28</td>
+ </tr>
+ <tr>
+  <td class="column-head">End Time</td>
+  <td>2021-10-01 13:45:46</td>
+ </tr>
+ <tr>
+  <td class="column-head">Elapsed Time</td>
+  <td>18 seconds</td>
+ </tr>
+ <tr>
+  <td class="column-head">Statistics</td>
+  <td>8123 requests, 0 errors, 17 findings</td>
+ </tr>
+</tbody></table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable">
+  <tbody><tr>
+    <td>Scan Summary</td>
+  </tr>
+</tbody></table>
+<table class="dataTable">
+  <tbody><tr>
+    <td class="column-head">Software Details</td>
+    <td><a href="http://cirt.net/">Nikto 2.1.6</a></td>
+  </tr><tr>
+    <td class="column-head">CLI Options</td>
+    <td>-url http://172.17.0.3:80/vulnerabilities/ -Plugins @@ALL -Format html -output tmp/nikto_report_d.html</td>
+  </tr>
+  <tr>
+    <td class="column-head">Hosts Tested</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="column-head">Start Time</td>
+    <td>Fri Oct  1 13:45:27 2021</td>
+  </tr>
+  <tr>
+    <td class="column-head">End Time</td>
+    <td>Fri Oct  1 13:45:46 2021</td>
+  </tr>
+  <tr>
+    <td class="column-head">Elapsed Time</td>
+    <td>19 seconds</td>
+  </tr>
+</tbody></table>
+<p></p>
+<p class="copyright">© 2008 Chris Sullo</p>
+
+<!-- (c) 2008 Chris Sullo -->
+
+
+
+
+</body></html>
